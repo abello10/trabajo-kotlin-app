@@ -4,7 +4,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
-    private const val BASE_URL = "linkDelRenderlul"
+    private const val BASE_URL = "https://kotlin-backend-real.onrender.com/"
 
     val apiService: GamesApiService by lazy {
         Retrofit.Builder()
